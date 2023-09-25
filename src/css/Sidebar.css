@@ -1,0 +1,166 @@
+.sidebar-container{
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12rem;
+    min-height: 100vh;
+}
+
+.logo-container{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.601);
+}
+.logo{
+    font-size: 3rem;
+    color: rgb(7, 135, 178);
+}
+
+
+/* CATEGORY SECTION============================ */
+
+.category-container{
+    margin-bottom: 1.5rem;
+}
+.category-container .title{
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+.category{
+    display: block;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    position: relative;
+    cursor: pointer;
+}
+.category input{
+    display: none;
+}
+.category .checkmark{
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border-radius: 50%;
+}
+.category:hover .checkmark{
+    background-color: pink;
+}
+.category input:checked + .checkmark{
+    background-color: rgb(0, 88, 252);
+}
+.category input:checked + .checkmark::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    left: 6.2px;
+    border-radius: 50%;
+}
+
+
+
+
+/* PRICE SECTION============================ */
+
+.price-container{
+    margin-bottom: 1.5rem;
+}
+.price-container .title{
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+.price-container .price{
+    display: block;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    position: relative;
+    cursor: pointer;
+}
+.price-container .price input{
+    display: none;
+}
+.price-container .price .checkmark{
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border-radius: 50%;
+}
+.price-container .price:hover .checkmark{
+    background-color: pink;
+}
+.price-container .price input:checked + .checkmark{
+    background-color: rgb(0, 88, 252);
+}
+.price-container .price input:checked + .checkmark::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    left: 6.2px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* COLOR SECTION============================ */
+.color-container{
+    margin-bottom: 1.5rem;
+}
+.color-container .title{
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+.color{
+    display: block;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    position: relative;
+    cursor: pointer;
+}
+.color input{
+    display: none;
+}
+.color .checkmark{
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border-radius: 50%;
+}
+.color:hover .checkmark{
+    background-color: pink;
+}
+.color input:checked + .checkmark{
+    background-color: rgb(0, 88, 252);
+}
+.color input:checked + .checkmark::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    left: 6.2px;
+    border-radius: 50%;
+}
